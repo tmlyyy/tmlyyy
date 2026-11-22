@@ -1,40 +1,35 @@
 <div align="center">
 
-# tmly.exe
+<img src="assets/banner.svg" width="100%" alt="tmly | Y2K chrome red" />
 
-**software · data · automation · creative technology**
+**software engineering · data science · automation · creative coding**
 
-Software Engineering at **42 São Paulo** · Data Science at **UNIVESP**  
-**IT Financial Planning & Control Intern @ Vivo** · **Google AI Student Ambassador**
+<br />
 
-[**✦ OPEN THE Y2K PORTFOLIO ↗**](https://tmlyyy.github.io/tmlyyy/)
+<a href="https://tmlyyy.github.io/tmlyyy/"><strong>✦ OPEN THE INTERACTIVE PORTFOLIO ↗</strong></a>
+&nbsp; · &nbsp;
+<a href="https://www.linkedin.com/in/thamily-victoria-744802188/">LinkedIn ↗</a>
 
-[GitHub](https://github.com/tmlyyy) · [LinkedIn](https://www.linkedin.com/in/thamily-victoria-744802188/)
+<br /><br />
 
 </div>
 
----
+### `about.exe`
 
-### about.exe
+I'm **tmly** — studying Software Engineering at **42 São Paulo** and Data Science at **UNIVESP**, and working with financial indicators, data and automation as an **IT intern at Vivo**. Also a **Google AI Student Ambassador**.
 
-I'm **tmly**. I enjoy building things, exploring algorithms and connecting software with practical challenges.
+### `projects/`
 
-I work at the intersection of technology and business in **Vivo's IT Financial Planning & Control** area, supporting indicators, reporting and automation. I'm also involved in the **Google AI Student Ambassador** student program.
+[**↗ Fly-in**](https://github.com/tmlyyy/Fly-in) · Python drone routing, Dijkstra & A*  
+[**↗ a-maze-ing**](https://github.com/tmlyyy/a-maze-ing) · Python mazes, DFS/BFS, pair project  
+[**↗ TmlySynth**](https://github.com/tmlyyy/TmlySynth) · generative techno, MIDI and algorithms  
+[**↗ push_swap**](https://github.com/tmlyyy/push_swap) · sorting algorithms in C  
+[**↗ libft**](https://github.com/tmlyyy/libft) · foundational C library
 
-### projects/
+### `stack.sys`
 
-| Project | What I've built |
-| --- | --- |
-| [**Fly-in**](https://github.com/tmlyyy/Fly-in) | Multi-drone routing simulation using **Dijkstra, A\***, capacity constraints and an offline HTML viewer. |
-| [**a-maze-ing**](https://github.com/tmlyyy/a-maze-ing) | Maze generator and shortest-path solver in **Python**, created in a pair at 42. |
-| [**TmlySynth**](https://github.com/tmlyyy/TmlySynth) | **Techno/MIDI sequencer** combining music and algorithms. |
-| [**push_swap**](https://github.com/tmlyyy/push_swap) | **C** sorting algorithms with multiple strategies and benchmarking. |
-| [**libft**](https://github.com/tmlyyy/libft) | Personal C library and memory-management practice. |
-
-### stack.sys
-
-`C` · `Python` · `SQL` · `Git` · `Linux` · `Excel` · `Automation` · `Gemini` · `Claude` · `IBM watsonx`
+`C`  ·  `Python`  ·  `SQL`  ·  `Git`  ·  `Linux`  ·  `Excel`  ·  `Automation`
 
 ---
 
-<div align="center"><sub>The full red-chrome interface is coded in HTML, CSS and JavaScript. Explore the portfolio via the link above.</sub></div>
+<div align="center"><sub>tmly.exe · the full retro desktop experience lives on the portfolio website, not inside GitHub Markdown.</sub></div>
