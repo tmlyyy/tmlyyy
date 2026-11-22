@@ -17,11 +17,13 @@
 
 <h3>✦ About me</h3>
 
-<p><strong>Hi, I'm tmly.</strong> I'm studying Software Engineering at <strong>42 São Paulo</strong> and Data Science at <strong>UNIVESP</strong>.</p>
+<p><strong>Hi, I'm tmly ✳</strong></p>
 
-<p>I'm currently an IT intern at <strong>Vivo</strong>, working with financial planning, data analysis, indicators and process automation.</p>
+<p>Somewhere between coding, AI experiments, electronic music, films, art, philosophy, and a bunch of interests that don't always seem related.</p>
 
-<p>I'm also a <strong>Google AI Student Ambassador</strong>. I like solving problems, exploring how things work and connecting technology with creative ideas. My background includes Dentistry and Business Administration.</p>
+<p>I study at 42 São Paulo and UNIVESP, work in IT at Vivo, and participate in the Google AI Student Ambassador program.</p>
+
+<p>I like technology that gives me room to experiment. Building something from scratch, automating a repetitive task, testing an AI tool, or mixing programming with music. That's the kind of stuff that keeps me interested.</p>
 
 </td>
 <td width="50%" valign="top">
