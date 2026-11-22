@@ -2,120 +2,102 @@
 
 <img src="./assets/banner-v3.svg" alt="tmly — red chrome Y2K banner" width="100%"/>
 
-**software engineering · data science · automation · creative coding**
+<p><strong>software engineering · data science · automation · creative coding</strong></p>
 
 <a href="https://tmlyyy.github.io/tmlyyy/"><img alt="Interactive portfolio" src="https://img.shields.io/badge/INTERACTIVE_PORTFOLIO-B10D2C?style=for-the-badge&logo=githubpages&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/thamily-victoria-744802188/"><img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-25232B?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 
 </div>
 
----
+<hr/>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ◈ about.exe
+<h3>✦ About me</h3>
 
-**hi, i'm tmly.**
+<p><strong>Hi, I'm tmly.</strong> I'm studying Software Engineering at <strong>42 São Paulo</strong> and Data Science at <strong>UNIVESP</strong>.</p>
 
-Studying Software Engineering at **42 São Paulo** and Data Science at **UNIVESP**. Currently an **IT intern at Vivo**, working with financial planning, indicators and automation.
+<p>I'm currently an IT intern at <strong>Vivo</strong>, working with financial planning, data analysis, indicators and process automation.</p>
 
-I like solving problems, experimenting with code and building useful things.
-
-<details>
-<summary>✦ More about me</summary>
-
-I'm a **Google AI Student Ambassador** and have a background in Dentistry and Business Administration. I explore the intersection of technology, product and business.
-
-</details>
+<p>I'm also a <strong>Google AI Student Ambassador</strong>. I like solving problems, exploring how things work and connecting technology with creative ideas. My background includes Dentistry and Business Administration.</p>
 
 </td>
 <td width="50%" valign="top">
 
-### ◈ experience.sys
+<h3>✦ Experience</h3>
 
-<a href="https://www.vivo.com.br/"><img src="https://cdn.simpleicons.org/vivo/7F2EAF" width="27" alt="Vivo logo"/></a> **[IT Intern · Vivo](https://www.linkedin.com/in/thamily-victoria-744802188/)**  
-Financial Planning & Control · since Oct 2026
+<p>
+<a href="https://www.vivo.com.br/"><img src="https://cdn.simpleicons.org/vivo/7F2EAF" width="25" alt="Vivo"/></a>
+<strong><a href="https://www.linkedin.com/in/thamily-victoria-744802188/">IT Intern · Vivo ↗</a></strong><br/>
+<sub>Financial Planning &amp; Control · since October 2026</sub><br/>
+Supporting financial reporting, operational indicators, spreadsheets and process automation in IT.
+</p>
 
-<a href="https://www.google.com/"><img src="https://cdn.simpleicons.org/google" width="27" alt="Google logo"/></a> **[Google AI Student Ambassador](https://www.linkedin.com/in/thamily-victoria-744802188/)**  
-Student ambassador program · 2026
-
-<details>
-<summary>✦ What I work with</summary>
-
-Data analysis, spreadsheets, indicators, automations, and experiments with AI tools. Ambassador refers to a student program, not Google employment.
-
-</details>
+<p>
+<a href="https://www.google.com/"><img src="https://cdn.simpleicons.org/google" width="25" alt="Google"/></a>
+<strong><a href="https://www.linkedin.com/in/thamily-victoria-744802188/">Google AI Student Ambassador ↗</a></strong><br/>
+<sub>Student ambassador program · 2026</sub><br/>
+Exploring and sharing practical applications of generative AI for learning and experimentation.
+</p>
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-### ◈ projects/
+<h3>✦ Featured projects</h3>
 
-📁 **[Fly-in ↗](https://github.com/tmlyyy/Fly-in)**  
-<sub>Python · Dijkstra · A* · HTML visualization</sub>  
-Multi-drone routing with zone and connection capacity constraints.
+<p>📁 <strong><a href="https://github.com/tmlyyy/Fly-in">Fly-in ↗</a></strong><br/>
+<sub>Python · Dijkstra · A* · HTML visualization</sub><br/>
+Multi-drone routing with zone and connection capacity constraints.</p>
 
-📁 **[a-maze-ing ↗](https://github.com/tmlyyy/a-maze-ing)**  
-<sub>Python · DFS · BFS · 42 São Paulo</sub>  
-Maze generator and shortest-path solver, developed in a pair.
+<p>📁 <strong><a href="https://github.com/tmlyyy/a-maze-ing">a-maze-ing ↗</a></strong><br/>
+<sub>Python · DFS · BFS · 42 São Paulo</sub><br/>
+Maze generator and shortest-path solver, developed in a pair.</p>
 
-♫ **[TmlySynth ↗](https://github.com/tmlyyy/TmlySynth)**  
-<sub>Python · MIDI · creative coding</sub>  
-Generative techno sequencer with algorithmic rhythm patterns.
+<p>♫ <strong><a href="https://github.com/tmlyyy/TmlySynth">TmlySynth ↗</a></strong><br/>
+<sub>Python · MIDI · creative coding</sub><br/>
+Generative techno sequencer with algorithmic rhythm patterns.</p>
 
-📁 **[push_swap ↗](https://github.com/tmlyyy/push_swap)**  
-<sub>C · sorting algorithms · benchmarking</sub>  
-Stack-based sorting with multiple strategies.
+<p>📁 <strong><a href="https://github.com/tmlyyy/push_swap">push_swap ↗</a></strong><br/>
+<sub>C · algorithms · benchmarking</sub><br/>
+Stack-based sorting with multiple strategies.</p>
 
-<details>
-<summary>+ More projects</summary>
-
-- [libft](https://github.com/tmlyyy/libft) — custom C library
-- [printf](https://github.com/tmlyyy/printf) — formatted printing in C
-- [get_next_line](https://github.com/tmlyyy/get_next_line) — file-reading utilities in C
-
-</details>
+<p><strong>More projects:</strong> <a href="https://github.com/tmlyyy/libft">libft</a> · <a href="https://github.com/tmlyyy/printf">printf</a> · <a href="https://github.com/tmlyyy/get_next_line">get_next_line</a></p>
 
 </td>
 <td valign="top">
 
-### ◈ education.bin
+<h3>✦ Education</h3>
 
-<img src="https://img.shields.io/badge/42-S%C3%A3o_Paulo-18171B?style=flat-square&labelColor=D9D9DF" alt="42 São Paulo"/>  
-**[42 São Paulo ↗](https://www.42sp.org.br/)**  
-Software Engineering · Common Core
+<p><strong><a href="https://www.42sp.org.br/">42 São Paulo ↗</a></strong><br/>
+Software Engineering · Common Core</p>
 
-<img src="https://img.shields.io/badge/UNIVESP-Data_Science-A70F28?style=flat-square" alt="UNIVESP"/>  
-**[UNIVESP ↗](https://univesp.br/)**  
-BSc in Data Science
+<p><strong><a href="https://univesp.br/">UNIVESP ↗</a></strong><br/>
+Bachelor's in Data Science</p>
 
-### ◈ stack.sys
+<h3>✦ Tech stack</h3>
 
-<a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=c,py,git,linux&theme=dark" alt="C, Python, Git, Linux" height="47"/></a>
+<p><img src="https://skillicons.dev/icons?i=c,py,git,linux&amp;theme=dark" alt="C, Python, Git and Linux" height="44"/></p>
 
-`C` `Python` `SQL` `Git` `Linux` `Excel` `Automation`
+<p><code>C</code> <code>Python</code> <code>SQL</code> <code>Git</code> <code>Linux</code> <code>Excel</code> <code>Automation</code></p>
 
-<details>
-<summary>✦ AI and community</summary>
+<h3>✦ AI &amp; Community</h3>
 
-**Google AI Student Ambassador** · AI learning and knowledge-sharing activities
+<p><strong>Google AI Student Ambassador</strong><br/>
+AI learning, experimentation and knowledge sharing.</p>
 
-**Educathon — Instituto ELDORADO + IBM SkillsBuild** · tested prompts with IBM watsonx, Gemini and Claude
+<p><strong>Educathon · Instituto ELDORADO &amp; IBM SkillsBuild</strong><br/>
+Generative AI challenge using IBM watsonx, Gemini and Claude.</p>
 
-</details>
-
-### ◈ links/
-
-**[GitHub ↗](https://github.com/tmlyyy)** · **[LinkedIn ↗](https://www.linkedin.com/in/thamily-victoria-744802188/)** · **[Portfolio ↗](https://tmlyyy.github.io/tmlyyy/)**
+<h3>✦ Links</h3>
+<p><a href="https://github.com/tmlyyy">GitHub ↗</a> · <a href="https://www.linkedin.com/in/thamily-victoria-744802188/">LinkedIn ↗</a> · <a href="https://tmlyyy.github.io/tmlyyy/">Portfolio ↗</a></p>
 
 </td>
 </tr>
 </table>
 
----
-
-<div align="center"><sub>tmly.exe · code / data / creativity · São Paulo, Brazil</sub></div>
+<hr/>
+<div align="center"><sub>tmly · code / data / creativity · São Paulo, Brazil</sub></div>
