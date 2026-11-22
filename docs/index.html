@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0a0a0e">
+<meta name="description" content="tmly — software, data, automation and creative tech.">
+<title>tmly.exe · portfolio</title>
+<style>
+:root{--bg:#0b0a0f;--paper:#e4e4e8;--ink:#15141a;--accent:#b20e2c;--accent2:#fc3c58;--line:#8f909b;--chrome:linear-gradient(170deg,#fff 0%,#c1c2c9 21%,#f5f5f7 40%,#a5a6b0 72%,#fff 100%);--ruby:linear-gradient(180deg,#4c0613,#a00a29 56%,#e12e45)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:#f2f1f5;font-family:Inter,"Segoe UI",system-ui,sans-serif;min-width:300px}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.15;background:radial-gradient(circle at 15% 20%,#b20e2c 0,transparent 29%),radial-gradient(circle at 87% 80%,#78102a 0,transparent 35%)}
+a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible{outline:3px solid #ff6074;outline-offset:3px}
+.top{height:56px;border-bottom:1px solid #35343b;background:#101014;display:flex;align-items:center;gap:22px;padding:0 max(20px,calc((100vw - 1450px)/2));font-size:13px;color:#b8b8c2}
+.top svg{width:27px;height:27px;fill:white}.top strong{color:white;font-size:15px}
+.top .spacer{flex:1}.top a:hover{color:white}
+.shell{max-width:1450px;margin:0 auto;padding:25px 24px 70px;display:grid;grid-template-columns:240px minmax(0,1fr);gap:28px}
+.sidebar{padding-top:18px}.avatar{width:190px;height:190px;border-radius:50%;border:5px solid #d0d0d8;box-shadow:0 0 0 4px #950a25,0 0 25px #8a0b2e;object-fit:cover;object-position:center}
+.sidebar h1{font-size:36px;margin:20px 0 0;letter-spacing:-1px}.sidebar .handle{color:#a4a3af;margin:0 0 16px}
+.sidebar p{font-size:14px;line-height:1.65}.sidebar ul{padding:0;list-style:none;font-size:13px;color:#dad9e0;line-height:2.1}.sidebar li::before{content:"✧";color:#fa4259;margin-right:9px}
+.socials{display:flex;gap:8px;margin:18px 0}.socials a{border:1px solid #5f5d68;border-radius:10px;padding:10px 12px;background:#141318}.socials a:hover{background:#83122d}
+.side-head{border-top:1px solid #494750;padding-top:18px;margin-top:28px;font-weight:700}.side-small{color:#b5b2bf;font-size:12px}
+.tabs{display:flex;gap:8px;border-bottom:1px solid #4a4950;margin:0 0 23px;padding:0 0 10px;flex-wrap:wrap}.tabs button{border:0;background:transparent;color:#d6d4dd;border-bottom:2px solid transparent;padding:9px 15px}.tabs button.active,.tabs button:hover{border-color:#f12b48;color:white}
+.hero{position:relative;min-height:252px;overflow:hidden;border-radius:16px;border:3px solid #b9b9c2;background:radial-gradient(ellipse at 50% 40%,#2b1019 0,transparent 56%),#050509;box-shadow:0 12px 35px #0005}
+.hero::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 30px,#820a2455 31px 32px),repeating-linear-gradient(90deg,transparent 0 65px,#8d0a2555 66px 67px);transform:perspective(260px) rotateX(42deg) translateY(115px);transform-origin:bottom;opacity:.8}
+.orbit{position:absolute;left:17%;top:22%;width:66%;height:58%;border:5px solid #ff3858;border-radius:50%;transform:rotate(-11deg);box-shadow:0 0 12px #f53452,inset 0 0 10px #b5002a;opacity:.95}
+.hero-title{font-family:Georgia,"Times New Roman",serif;font-size:clamp(85px,12vw,185px);font-weight:900;font-style:italic;line-height:1;letter-spacing:-.075em;position:relative;z-index:2;text-align:center;margin:35px 0 0;text-shadow:1px 1px #fff,-3px 4px #4e4f5d,0 10px 16px #000;color:#d4d4de;background:linear-gradient(#fff 3%,#858694 26%,#fff 38%,#565766 55%,#dedee4 76%,#fff 98%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero-sub{position:relative;z-index:2;text-align:center;color:#fff;font-family:Consolas,monospace;letter-spacing:.18em;font-size:13px;margin:0 0 25px}
+.hero-tag{position:absolute;right:18px;top:18px;padding:10px 13px;border:1px solid #eb2541;background:#09080cd9;border-radius:9px;color:#fbe6ea;font:12px/1.6 Consolas,monospace}
+.sparkle{position:absolute;color:#fafafa;text-shadow:0 0 17px #fff;font-size:35px}.s1{top:26px;left:20%}.s2{bottom:25px;right:18%}
+.workspace{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:19px;align-items:start}
+.stack-col{display:grid;gap:18px;align-content:start}.window{border:3px solid #9797a0;border-radius:12px;overflow:hidden;background:var(--chrome);box-shadow:inset 0 0 0 2px #fff,0 9px 20px #0006;color:var(--ink);min-width:0}
+.window-bar{display:flex;align-items:center;gap:10px;background:var(--ruby);color:#fff;min-height:39px;padding:5px 9px 5px 15px;border-bottom:2px solid #60091a;font:700 15px Consolas,monospace}
+.window-bar strong{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.window-controls{display:flex;gap:4px}
+.window-controls button{width:28px;height:27px;padding:0;border:1px solid #535360;border-radius:4px;background:var(--chrome);color:#1b1b24;font-size:16px;font-weight:800}
+.window-controls button:hover{background:#fdfdff}
+.window-body{padding:14px 15px;line-height:1.52;font-size:14px}
+.window.collapsed .window-body{display:none}.window.collapsed .window-controls button[data-close]{transform:rotate(45deg)}
+.welcome{display:flex;gap:15px;align-items:center}.pixel{font-size:48px;color:#9e102d;line-height:1}
+.window-body h2{margin:0 0 7px;font-size:19px}.window-body p{margin:5px 0 8px}
+.entry{display:flex;align-items:center;gap:12px;padding:10px 7px;border-bottom:1px solid #c0c0c7;min-width:0}
+.entry:last-child{border-bottom:0}.entry .brand{flex:0 0 88px;min-height:58px;border:1px solid #a0a0a8;background:#f7f7f9;border-radius:9px;display:grid;place-items:center;font-weight:900;box-shadow:inset 0 2px 3px #aaa5}
+.brand.vivo{font-size:26px;color:#8427bb}.brand.google{font-size:36px;font-family:Arial;background:linear-gradient(85deg,#4285f4 20%,#34a853 35%,#fbbc05 65%,#ea4335 82%);background-clip:text;-webkit-background-clip:text;color:transparent}.brand.forty{font-size:37px;font-style:italic;letter-spacing:-4px}.brand.uni{font-family:Georgia,serif;font-size:20px;color:#a40825}.brand.ibm{font:900 27px Georgia;color:#2470b5}
+.entry-copy{flex:1;min-width:0}.entry-copy b{display:block;font-size:14px}.entry-copy small{color:#4f4d56;font-size:12px;line-height:1.5;display:block}.entry .go{border:1px solid #5b1325;border-radius:5px;background:#a50b29;color:#fff;padding:5px 9px;flex:0 0 auto}
+.entry .go:hover{background:#65061b}.folder{flex:0 0 42px;color:#b10b2b;font-size:32px;line-height:1}
+.skills{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px}.skill{border-radius:9px;border:1px solid #919099;background:#f7f7f9;box-shadow:inset 0 -4px #bfc0c8;text-align:center;padding:11px 2px;font-weight:900;font-size:17px}
+.skill span{display:block;font-size:10px;font-weight:600;color:#56515c;margin-top:6px}
+.activity{margin-top:18px}.activity .window-body{padding:19px}.activity p{margin:0 0 12px;font-size:12px;color:#4e4651}.heatmap{display:grid;grid-template-columns:repeat(24,1fr);gap:4px}.sq{aspect-ratio:1;background:#b8b8c2;border-radius:2px}.sq.red1{background:#edb4bb}.sq.red2{background:#e46a7d}.sq.red3{background:#ba2540}.sq.red4{background:#8b0c25}
+.note{margin-top:9px;font-size:11px;color:#655e69}.footer{text-align:center;margin:28px 0;color:#9b99a4;font:12px Consolas,monospace}
+.hide-section{display:none!important}.display-panel{display:none}
+@media(max-width:1030px){.shell{grid-template-columns:190px minmax(0,1fr);gap:18px;padding:18px}.avatar{width:155px;height:155px}.workspace{grid-template-columns:1fr}.hero{min-height:235px}}
+@media(max-width:640px){.top{padding:0 15px}.top .optional{display:none}.shell{display:block;padding:16px}.sidebar{display:grid;grid-template-columns:86px 1fr;gap:0 14px;padding:0 0 16px}.avatar{width:86px;height:86px;grid-row:span 3}.sidebar h1{margin:0;font-size:28px}.sidebar .handle{margin:0}.sidebar p{margin:7px 0}.sidebar ul,.side-head,.side-small,.socials{grid-column:1/-1}.sidebar ul{margin:4px 0}.hero{min-height:180px}.hero-title{font-size:94px;margin:40px 0 0}.hero-tag{display:none}.hero-sub{font-size:10px;letter-spacing:.1em}.window-bar{font-size:13px}.entry .brand{flex-basis:65px}.entry .go{padding:5px}.entry-copy b{font-size:12px}.entry-copy small{font-size:11px}.heatmap{gap:2px}}
+@media(prefers-reduced-motion:no-preference){.sparkle{animation:twinkle 4s ease-in-out infinite alternate}@keyframes twinkle{from{opacity:.35;transform:scale(.8)}to{opacity:1;transform:scale(1.1)}}}
+</style>
+</head>
+<body>
+<header class="top">
+<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .8A11.2 11.2 0 0 0 8.46 22.62c.56.1.77-.25.77-.54v-2.16c-3.13.68-3.79-1.34-3.79-1.34-.51-1.3-1.25-1.64-1.25-1.64-1.03-.71.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1.01 1.72 2.65 1.22 3.3.93.1-.73.39-1.22.71-1.5-2.5-.28-5.12-1.25-5.12-5.55 0-1.23.44-2.23 1.15-3.02-.11-.28-.5-1.43.11-2.98 0 0 .94-.3 3.08 1.15A10.74 10.74 0 0 1 12 6.3c.95 0 1.89.13 2.78.38 2.14-1.45 3.08-1.15 3.08-1.15.61 1.55.22 2.7.11 2.98.72.79 1.15 1.79 1.15 3.02 0 4.31-2.62 5.26-5.13 5.54.4.35.75 1.03.75 2.08v2.83c0 .29.2.65.78.54A11.2 11.2 0 0 0 12 .8Z"/></svg>
+<strong>tmly.exe</strong><span class="optional">Overview</span><span class="optional">Repositories</span><span class="optional">Projects</span><span class="spacer"></span><a href="https://github.com/tmlyyy" target="_blank" rel="noopener">GitHub ↗</a>
+</header>
+<div class="shell">
+<aside class="sidebar">
+<img class="avatar" src="https://avatars.githubusercontent.com/u/286765042?v=4" alt="Foto de perfil original de tmly">
+<h1>tmly</h1><div class="handle">@tmlyyy</div>
+<p>Software engineering · data science · automation · creative coding.</p>
+<ul><li>São Paulo, Brasil</li><li>IT Intern @ Vivo</li><li>42 São Paulo</li><li>Data Science @ UNIVESP</li><li>Google AI Student Ambassador</li></ul>
+<div class="socials"><a href="https://github.com/tmlyyy" target="_blank" rel="noopener" aria-label="GitHub">GitHub ↗</a><a href="https://www.linkedin.com/in/thamily-victoria-744802188/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn ↗</a></div>
+<div class="side-head">Highlights</div><p class="side-small">✦ Vivo — IT Financial Planning & Control<br>✦ 42 São Paulo · UNIVESP<br>✦ Google AI Student Ambassador</p>
+</aside>
+<main>
+<nav class="tabs" aria-label="Filtrar seções"><button class="active" type="button" data-filter="all" aria-pressed="true">Overview</button><button type="button" data-filter="projects" aria-pressed="false">Projects</button><button type="button" data-filter="experience" aria-pressed="false">Experience</button><button type="button" data-filter="education" aria-pressed="false">Education</button></nav>
+<section class="hero" aria-label="tmly branding">
+<div class="orbit" aria-hidden="true"></div><span class="sparkle s1" aria-hidden="true">✧</span><span class="sparkle s2" aria-hidden="true">✦</span>
+<h2 class="hero-title">tmly</h2><p class="hero-sub">CODE / DATA / CREATIVE TECH</p><div class="hero-tag">> software<br>> data<br>> automation_</div>
+</section>
+<div class="workspace">
+<div class="stack-col">
+<section class="window" data-category="about" id="about"><div class="window-bar"><strong>about.exe</strong><div class="window-controls"><button type="button" data-min aria-label="Minimizar about">−</button><button type="button" data-close aria-label="Recolher about">×</button></div></div><div class="window-body welcome"><span class="pixel">⌛</span><div><h2>hi, i'm tmly.</h2><p>Software Engineering student at 42 São Paulo and Data Science student at UNIVESP. Currently working in IT Financial Planning & Control at Vivo. I like building useful tools, solving problems and exploring creative tech.</p></div></div></section>
+<section class="window" data-category="projects" id="projects"><div class="window-bar"><strong>projects/</strong><div class="window-controls"><button type="button" data-min aria-label="Minimizar projetos">−</button><button type="button" data-close aria-label="Recolher projetos">×</button></div></div><div class="window-body">
+<div class="entry"><span class="folder">📁</span><div class="entry-copy"><b>Fly-in</b><small>Drone fleet routing · Dijkstra / A* · Python</small></div><a class="go" href="https://github.com/tmlyyy/Fly-in" target="_blank" rel="noopener" aria-label="Abrir Fly-in">↗</a></div>
+<div class="entry"><span class="folder">📁</span><div class="entry-copy"><b>a-maze-ing</b><small>Maze generator, DFS / BFS · feito em dupla</small></div><a class="go" href="https://github.com/tmlyyy/a-maze-ing" target="_blank" rel="noopener" aria-label="Abrir a-maze-ing">↗</a></div>
+<div class="entry"><span class="folder">♫</span><div class="entry-copy"><b>TmlySynth</b><small>Algorithmic techno and MIDI sequencer</small></div><a class="go" href="https://github.com/tmlyyy/TmlySynth" target="_blank" rel="noopener" aria-label="Abrir TmlySynth">↗</a></div>
+<div class="entry"><span class="folder">📁</span><div class="entry-copy"><b>push_swap</b><small>C · multi-strategy sorting algorithms</small></div><a class="go" href="https://github.com/tmlyyy/push_swap" target="_blank" rel="noopener" aria-label="Abrir push_swap">↗</a></div>
+</div></section>
+<section class="window" data-category="community"><div class="window-bar"><strong>community.log</strong><div class="window-controls"><button type="button" data-min aria-label="Minimizar comunidade">−</button><button type="button" data-close aria-label="Recolher comunidade">×</button></div></div><div class="window-body"><div class="entry"><span class="brand ibm">IBM</span><div class="entry-copy"><b>Educathon</b><small>Generative AI · Instituto ELDORADO / IBM SkillsBuild</small></div></div><div class="entry"><span class="brand forty">42</span><div class="entry-copy"><b>42 São Paulo</b><small>Algorithms, memory and software fundamentals</small></div></div></div></section>
+</div>
+<div class="stack-col">
+<section class="window" data-category="experience" id="experience"><div class="window-bar"><strong>experience.sys</strong><div class="window-controls"><button type="button" data-min aria-label="Minimizar experiência">−</button><button type="button" data-close aria-label="Recolher experiência">×</button></div></div><div class="window-body"><div class="entry"><span class="brand vivo">vivo</span><div class="entry-copy"><b>IT Intern — Vivo</b><small>Financial Planning & Control · Oct 2026 — present</small></div><a class="go" href="https://www.vivo.com.br/" target="_blank" rel="noopener" aria-label="Site Vivo">↗</a></div><div class="entry"><span class="brand google">G</span><div class="entry-copy"><b>Google AI Student Ambassador</b><small>Student Ambassador Program · 2026</small></div><a class="go" href="https://www.linkedin.com/in/thamily-victoria-744802188/" target="_blank" rel="noopener" aria-label="Publicações LinkedIn">↗</a></div></div></section>
+<section class="window" data-category="education" id="education"><div class="window-bar"><strong>education.bin</strong><div class="window-controls"><button type="button" data-min aria-label="Minimizar formação">−</button><button type="button" data-close aria-label="Recolher formação">×</button></div></div><div class="window-body"><div class="entry"><span class="brand forty">42</span><div class="entry-copy"><b>42 São Paulo</b><small>Software Engineering · Common Core</small></div><a class="go" href="https://www.42sp.org.br/" target="_blank" rel="noopener" aria-label="42 São Paulo">↗</a></div><div class="entry"><span class="brand uni">UNIVESP</span><div class="entry-copy"><b>UNIVESP</b><small>Bachelor's in Data Science</small></div><a class="go" href="https://univesp.br/" target="_blank" rel="noopener" aria-label="UNIVESP">↗</a></div></div></section>
+<section class="window" data-category="stack"><div class="window-bar"><strong>stack.sys</strong><div class="window-controls"><button type="button" data-min aria-label="Minimizar tecnologias">−</button><button type="button" data-close aria-label="Recolher tecnologias">×</button></div></div><div class="window-body"><div class="skills"><div class="skill">C<span>LANG</span></div><div class="skill">Py<span>PYTHON</span></div><div class="skill">SQL<span>DATA</span></div><div class="skill">Git<span>VERSION</span></div><div class="skill">🐧<span>LINUX</span></div><div class="skill">X<span>EXCEL</span></div><div class="skill">AI<span>TOOLS</span></div><div class="skill">↗<span>AUTOMATION</span></div></div></div></section>
+</div>
+</div>
+<section class="window activity" data-category="activity"><div class="window-bar"><strong>activity.log</strong><div class="window-controls"><button type="button" data-min aria-label="Minimizar atividade">−</button><button type="button" data-close aria-label="Recolher atividade">×</button></div></div><div class="window-body"><p>Para conferir contribuições reais, abra a página de atividade no GitHub.</p><a class="go" href="https://github.com/tmlyyy?tab=overview" target="_blank" rel="noopener">Ver atividade real ↗</a><p class="note">Não exibimos quadradinhos ou contagens fictícias.</p></div></section>
+<div class="footer">tmly.exe · Y2K RED CHROME · BUILT WITH HTML / CSS / JAVASCRIPT</div>
+</main></div>
+<script>
+const tabs=[...document.querySelectorAll('[data-filter]')];
+tabs.forEach(tab=>tab.addEventListener('click',()=>{
+const value=tab.dataset.filter;
+tabs.forEach(t=>{const active=t===tab;t.classList.toggle('active',active);t.setAttribute('aria-pressed',String(active))});
+document.querySelectorAll('[data-category]').forEach(panel=>{
+ const shouldShow=value==='all'||panel.dataset.category===value;
+ panel.classList.toggle('hide-section',!shouldShow);
+ if(shouldShow) panel.classList.remove('collapsed');
+});
+}));
+document.querySelectorAll('.window-controls button').forEach(button=>button.addEventListener('click',()=>{
+const win=button.closest('.window');
+const collapsed=win.classList.toggle('collapsed');
+button.setAttribute('aria-expanded',String(!collapsed));
+button.setAttribute('title',collapsed?'Expandir janela':'Recolher janela');
+}));
+</script>
+</body></html>
