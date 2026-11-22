@@ -21,7 +21,7 @@
 
 <p>I'm currently an IT intern at <strong>Vivo</strong>, working with financial planning, data analysis, indicators and process automation.</p>
 
-<p>I'm also a <strong>Google AI Student Ambassador</strong>. I like solving problems, exploring how things work and connecting technology with creative ideas. My background includes Dentistry and Business Administration.</p>
+<p>I'm also a <strong>Google AI Student Ambassador</strong>. I like solving problems, exploring how things work and connecting technology with creative ideas.</p>
 
 </td>
 <td width="50%" valign="top">
